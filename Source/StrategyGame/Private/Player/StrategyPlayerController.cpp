@@ -43,7 +43,7 @@ void AStrategyPlayerController::SetupInputComponent()
 
 }
 
-void AStrategyPlayerController::GetAudioListenerPosition(FVector& OutLocation, FVector& OutFrontDir, FVector& OutRightDir)
+void AStrategyPlayerController::GetAudioListenerPosition(FVector& OutLocation, FVector& OutFrontDir, FVector& OutRightDir) const
 {
 	Super::GetAudioListenerPosition(OutLocation, OutFrontDir, OutRightDir);
 

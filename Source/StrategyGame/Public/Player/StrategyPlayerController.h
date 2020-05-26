@@ -102,7 +102,7 @@ protected:
 	 * @param	
 	 * @param	
 	 */
-	virtual void GetAudioListenerPosition(FVector& Location, FVector& FrontDir, FVector& RightDir);
+	virtual void GetAudioListenerPosition(FVector& Location, FVector& FrontDir, FVector& RightDir) const;
 
 private:
 	/** Helper to return cast version of Spectator pawn. */		
